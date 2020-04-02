@@ -1,5 +1,5 @@
 const japandata = {
-  "date": 2020/04/02 08:13 
+  "date": "2020/04/02 08:13", 
   "type": "FeatureCollection",
   "features": [
       {
