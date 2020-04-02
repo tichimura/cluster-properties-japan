@@ -1,5 +1,5 @@
 const japandata = {
-  "date": "2020/04/02 08:13", 
+  "date": "2020/04/02 22:53", 
   "type": "FeatureCollection",
   "features": [
       {
@@ -11,7 +11,7 @@ const japandata = {
           "prefecture_name_ja": "北海道",
           "capital_name": "Sapporo",
           "iso_3166-2": "JP-01",
-          "count": 135
+          "count": 172
         },
         "geometry": {
           "type": "Point",
@@ -30,7 +30,7 @@ const japandata = {
           "prefecture_name_ja": "青森県",
           "capital_name": "Aomori",
           "iso_3166-2": "JP-02",
-          "count": 0
+          "count": 6
         },
         "geometry": {
           "type": "Point",
@@ -68,7 +68,7 @@ const japandata = {
           "prefecture_name_ja": "宮城県",
           "capital_name": "Sendai",
           "iso_3166-2": "JP-04",
-          "count": 1
+          "count": 2
         },
         "geometry": {
           "type": "Point",
@@ -87,7 +87,7 @@ const japandata = {
           "prefecture_name_ja": "秋田県",
           "capital_name": "Akita",
           "iso_3166-2": "JP-05",
-          "count": 1
+          "count": 4
         },
         "geometry": {
           "type": "Point",
@@ -125,7 +125,7 @@ const japandata = {
           "prefecture_name_ja": "福島県",
           "capital_name": "Fukushima",
           "iso_3166-2": "JP-07",
-          "count": 1
+          "count": 2
         },
         "geometry": {
           "type": "Point",
@@ -144,7 +144,7 @@ const japandata = {
           "prefecture_name_ja": "茨城県",
           "capital_name": "Mito",
           "iso_3166-2": "JP-8",
-          "count": 0
+          "count": 13
         },
         "geometry": {
           "type": "Point",
@@ -163,7 +163,7 @@ const japandata = {
           "prefecture_name_ja": "栃木県",
           "capital_name": "Utsunomiya",
           "iso_3166-2": "JP-09",
-          "count": 2
+          "count": 11
         },
         "geometry": {
           "type": "Point",
@@ -201,7 +201,7 @@ const japandata = {
           "prefecture_name_ja": "埼玉県",
           "capital_name": "Saitama",
           "iso_3166-2": "JP-11",
-          "count": 21
+          "count": 78
         },
         "geometry": {
           "type": "Point",
@@ -220,7 +220,7 @@ const japandata = {
           "prefecture_name_ja": "千葉県",
           "capital_name": "Chiba",
           "iso_3166-2": "JP-12",
-          "count": 27
+          "count": 126
         },
         "geometry": {
           "type": "Point",
@@ -239,7 +239,7 @@ const japandata = {
           "prefecture_name_ja": "東京都",
           "capital_name": "Tokyo",
           "iso_3166-2": "JP-13",
-          "count": 72
+          "count": 368
         },
         "geometry": {
           "type": "Point",
@@ -258,7 +258,7 @@ const japandata = {
           "prefecture_name_ja": "神奈川県",
           "capital_name": "Yokohama",
           "iso_3166-2": "JP-14",
-          "count": 40
+          "count": 104
         },
         "geometry": {
           "type": "Point",
@@ -277,7 +277,7 @@ const japandata = {
           "prefecture_name_ja": "新潟県",
           "capital_name": "Niigata",
           "iso_3166-2": "JP-15",
-          "count": 14
+          "count": 31
         },
         "geometry": {
           "type": "Point",
@@ -315,7 +315,7 @@ const japandata = {
           "prefecture_name_ja": "石川県",
           "capital_name": "Kanazawa",
           "iso_3166-2": "JP-17",
-          "count": 5
+          "count": 9
         },
         "geometry": {
           "type": "Point",
@@ -334,7 +334,7 @@ const japandata = {
           "prefecture_name_ja": "福井県",
           "capital_name": "Fukui",
           "iso_3166-2": "JP-18",
-          "count": 0
+          "count": 12
         },
         "geometry": {
           "type": "Point",
@@ -354,7 +354,7 @@ const japandata = {
           "prefecture_name": "山梨県",
           "capital_name": "Kofu",
           "iso_3166-2": "JP-19",
-          "count": 2
+          "count": 4
         },
         "geometry": {
           "type": "Point",
@@ -373,7 +373,7 @@ const japandata = {
           "prefecture_name_ja": "長野県",
           "capital_name": "Nagano",
           "iso_3166-2": "JP-20",
-          "count": 2
+          "count": 6
         },
         "geometry": {
           "type": "Point",
@@ -392,7 +392,7 @@ const japandata = {
           "prefecture_name_ja": "岐阜県",
           "capital_name": "Gifu",
           "iso_3166-2": "JP-21",
-          "count": 2
+          "count": 16
         },
         "geometry": {
           "type": "Point",
@@ -411,7 +411,7 @@ const japandata = {
           "prefecture_name_ja": "静岡県",
           "capital_name": "Shizuoka",
           "iso_3166-2": "JP-22",
-          "count": 3
+          "count": 4
         },
         "geometry": {
           "type": "Point",
@@ -430,7 +430,7 @@ const japandata = {
           "prefecture_name_ja": "愛知県",
           "capital_name": "Nagoya",
           "iso_3166-2": "JP-23",
-          "count": 111
+          "count": 164
         },
         "geometry": {
           "type": "Point",
@@ -449,7 +449,7 @@ const japandata = {
           "prefecture_name_ja": "三重県",
           "capital_name": "Tsu",
           "iso_3166-2": "JP-24",
-          "count": 4
+          "count": 9
         },
         "geometry": {
           "type": "Point",
@@ -468,7 +468,7 @@ const japandata = {
           "prefecture_name_ja": "滋賀県",
           "capital_name": "Otsu",
           "iso_3166-2": "JP-25",
-          "count": 1
+          "count": 6
         },
         "geometry": {
           "type": "Point",
@@ -487,7 +487,7 @@ const japandata = {
           "prefecture_name_ja": "京都府",
           "capital_name": "Kyoto",
           "iso_3166-2": "JP-26",
-          "count": 14
+          "count": 37
         },
         "geometry": {
           "type": "Point",
@@ -506,7 +506,7 @@ const japandata = {
           "prefecture_name_ja": "大阪府",
           "capital_name": "Osaka",
           "iso_3166-2": "JP-27",
-          "count": 76
+          "count": 192
         },
         "geometry": {
           "type": "Point",
@@ -525,7 +525,7 @@ const japandata = {
           "prefecture_name_ja": "兵庫県",
           "capital_name": "Kobge",
           "iso_3166-2": "JP-28",
-          "count": 48
+          "count": 125
         },
         "geometry": {
           "type": "Point",
@@ -544,7 +544,7 @@ const japandata = {
           "prefecture_name_ja": "奈良県",
           "capital_name": "Nara",
           "iso_3166-2": "JP-29",
-          "count": 4
+          "count": 11
         },
         "geometry": {
           "type": "Point",
@@ -563,7 +563,7 @@ const japandata = {
           "prefecture_name_ja": "和歌山県",
           "capital_name": "Wakayama",
           "iso_3166-2": "JP-30",
-          "count": 12
+          "count": 17
         },
         "geometry": {
           "type": "Point",
@@ -620,7 +620,7 @@ const japandata = {
           "prefecture_name_ja": "岡山県",
           "capital_name": "Okayama",
           "iso_3166-2": "JP-33",
-          "count": 0
+          "count": 3
         },
         "geometry": {
           "type": "Point",
@@ -639,7 +639,7 @@ const japandata = {
           "prefecture_name_ja": "広島県",
           "capital_name": "Hiroshima",
           "iso_3166-2": "JP-34",
-          "count": 1
+          "count": 4
         },
         "geometry": {
           "type": "Point",
@@ -658,7 +658,7 @@ const japandata = {
           "prefecture_name_ja": "山口県",
           "capital_name": "Yamaguchi",
           "iso_3166-2": "JP-35",
-          "count": 1
+          "count": 6
         },
         "geometry": {
           "type": "Point",
@@ -677,7 +677,7 @@ const japandata = {
           "prefecture_name_ja": "徳島県",
           "capital_name": "Tokushima",
           "iso_3166-2": "JP-36",
-          "count": 0
+          "count": 1
         },
         "geometry": {
           "type": "Point",
@@ -696,7 +696,7 @@ const japandata = {
           "prefecture_name_ja": "香川県",
           "capital_name": "Takamatsu",
           "iso_3166-2": "JP-37",
-          "count": 0
+          "count": 1
         },
         "geometry": {
           "type": "Point",
@@ -715,7 +715,7 @@ const japandata = {
           "prefecture_name_ja": "愛媛県",
           "capital_name": "Matsuyama",
           "iso_3166-2": "JP-38",
-          "count": 1
+          "count": 4
         },
         "geometry": {
           "type": "Point",
@@ -734,7 +734,7 @@ const japandata = {
           "prefecture_name_ja": "高知県",
           "capital_name": "Kochi",
           "iso_3166-2": "JP-39",
-          "count": 11
+          "count": 13
         },
         "geometry": {
           "type": "Point",
@@ -753,7 +753,7 @@ const japandata = {
           "prefecture_name_ja": "福岡県",
           "capital_name": "Fukuoka",
           "iso_3166-2": "JP-40",
-          "count": 3
+          "count": 21
         },
         "geometry": {
           "type": "Point",
@@ -791,7 +791,7 @@ const japandata = {
           "prefecture_name_ja": "長崎県",
           "capital_name": "Nagasaki",
           "iso_3166-2": "JP-42",
-          "count": 0
+          "count": 2
         },
         "geometry": {
           "type": "Point",
@@ -810,7 +810,7 @@ const japandata = {
           "prefecture_name_ja": "熊本県",
           "capital_name": "Kumamoto",
           "iso_3166-2": "JP-43",
-          "count": 5
+          "count": 10
         },
         "geometry": {
           "type": "Point",
@@ -829,7 +829,7 @@ const japandata = {
           "prefecture_name_ja": "大分県",
           "capital_name": "Oita",
           "iso_3166-2": "JP-44",
-          "count": 1
+          "count": 27
         },
         "geometry": {
           "type": "Point",
@@ -848,7 +848,7 @@ const japandata = {
           "prefecture_name_ja": "宮崎県",
           "capital_name": "Miyazaki",
           "iso_3166-2": "JP-45",
-          "count": 1
+          "count": 3
         },
         "geometry": {
           "type": "Point",
@@ -867,7 +867,7 @@ const japandata = {
           "prefecture_name_ja": "鹿児島県",
           "capital_name": "Kagoshima",
           "iso_3166-2": "JP-45",
-          "count": 0
+          "count": 1
         },
         "geometry": {
           "type": "Point",
@@ -886,7 +886,7 @@ const japandata = {
           "prefecture_name_ja": "沖縄県",
           "capital_name": "Okinawa",
           "iso_3166-2": "JP-47",
-          "count": 3
+          "count": 6
         },
         "geometry": {
           "type": "Point",
