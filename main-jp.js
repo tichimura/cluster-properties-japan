@@ -35,13 +35,25 @@ map.on('load', () => {
       'circle-radius': [
         'step',
         ['get', 'counts'],
+        10,
+        50,
         50,
         100,
         100,
-        300,
+        500,
         150,
-        750,
-        300
+        1000,
+        200,
+        1500,
+        250,
+        2000,
+        300,
+        2500,
+        350,
+        3000,
+        400,
+        5000,
+        500
       ],
       'circle-stroke-color': colors[0],
       'circle-stroke-width': 10
@@ -108,6 +120,41 @@ map.on('load', () => {
     'paint': {
     'text-color': colors[0]
     }
+  });
+
+  var count_date = history.map(function(item){return item.date});
+  var count_block = history.map(function(item){return item.counts});
+
+  for ( var i = 0 ; i < count_block.length; i++){
+    console.log(count_date[i]);
+    console.log("is here", count_block[i]);
+    console.log(japandata.features[0].properties.count);
+  }
+
+  document.getElementById('slider').addEventListener('input', function(e) {
+
+    var date_value = parseInt(e.target.value);
+    console.log(date_value);
+
+    var anumber = 90 - date_value;
+    var date_number = String(count_date[anumber]);
+    var date_title = date_number.slice(0,4).concat("/", date_number.slice(4,6).concat("/",date_number.slice(6,8)));
+    console.log("this is count", anumber);
+
+    for( i= 1; i < 48; i++) {
+
+      if ( count_block[anumber][i] ){
+        console.log("count "+ count_block[anumber][i]);
+        japandata.features[i-1].properties.count = count_block[anumber][i];
+      }else{
+        japandata.features[i-1].properties.count = 0;
+      }
+    }
+
+    map.getSource('japandata').setData(japandata);
+    document.getElementById('active-date').innerText = date_title;
+
+
   });
 
 });
