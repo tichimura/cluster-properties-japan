@@ -25,10 +25,9 @@
 
     #console {
       position: absolute;
-      width: 240px;
-      margin: 10px;
-      padding: 10px 20px;
-      background-color: white;
+      width: 100%; /* Width of the outside container */
+      opacity: 0.7;
+      margin-bottom: 100px;
     }
 
     .session {
@@ -51,10 +50,55 @@
       text-align: center;
     }
 
+    h1 {
+      font-size: 18px;
+      margin: 20px;
+      line-height: 5px;
+      text-align: right;
+    }
+
     h2 {
       font-size: 14px;
-      line-height: 20px;
-      margin-bottom: 10px;
+      line-height: 5px;
+      text-align: right;
+      margin: 20px;
+    }
+
+    p {
+      text-align: right;
+      margin: 20px;
+
+    }
+
+    .slider {
+      -webkit-appearance: none;
+      margin: 2%;
+      width: 95%;
+      height: 10px;
+      border-radius: 5px;
+      background: white;
+      outline: none;
+      opacity: 0.7;
+      -webkit-transition: .2s;
+      transition: opacity .2s;
+    }
+
+    .slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: #4CAF50;
+      cursor: pointer;
+    }
+
+    .slider::-moz-range-thumb {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: #4CAF50;
+      cursor: pointer;
     }
 
   </style>
@@ -63,11 +107,11 @@
 <body>
   <div id="map"></div>
   <div id='console'>
-    <h1>Covid-19 latest information</h1>
-    <p>Data: <a href='https://www.mhlw.go.jp/stf/houdou/index.html'>厚生労働省 報道発表資料</a></p>
+    <h1>COVID-19 latest information</h1>
+    <h2>Data: <a href='https://www.mhlw.go.jp/stf/houdou/index.html'>厚生労働省 報道発表資料</a></h2>
     <div class='session' id='sliderbar'>
       <h2>Date: <label id='active-date'>2020/4/4</label></h2>
-      <input id='slider' class='row' type='range' min='28' max='90' step='1' value='90' />
+      <input id='slider' class='slider' type='range' min='28' max='90' step='1' value='90' />
     </div>
     <script src="japan_covid19_data.js"></script>
     <script src="main-jp.js"></script>
