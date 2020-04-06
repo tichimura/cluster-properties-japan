@@ -4,7 +4,8 @@ const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/tichimura/ck8jc5s6i0e0b1iny1cf144q9',
   center: [139.648890, 35.856940],
-  zoom: 3
+  pitch:60,
+  zoom: 3.5
 });
 
 const colors = ['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9','#bc80bd','#ccebc5','#ffed6f'];
@@ -16,7 +17,7 @@ map.on('load', () => {
     'type': 'geojson',
     'data': japandata,
     'cluster': true,
-    'clusterRadius': 200,
+    'clusterRadius': 250,
     'clusterProperties': { // keep separate counts for each fuel category in a cluster
       'counts': ['+', ['get', 'count']]
     }
@@ -35,25 +36,17 @@ map.on('load', () => {
       'circle-radius': [
         'step',
         ['get', 'counts'],
-        10,
-        50,
-        10,
-        100,
         20,
-        500,
-        30,
-        1000,
-        50,
-        1500,
-        75,
-        2000,
         100,
-        2500,
+        50,
+        500,
+        100,
+        1000,
         150,
-        3000,
+        2500,
         200,
         5000,
-        500
+        300
       ],
       'circle-stroke-color': colors[0],
       'circle-stroke-width': 10
@@ -93,12 +86,16 @@ map.on('load', () => {
           'circle-radius': [
             'step',
             ['get', 'count'],
+            20,
+            100,
             50,
+            500,
             100,
-            100,
-            300,
+            1000,
             150,
-            750,
+            2500,
+            200,
+            5000,
             300
           ],
       }
@@ -121,6 +118,8 @@ map.on('load', () => {
     'text-color': colors[0]
     }
   });
+
+  map.addControl(new mapboxgl.NavigationControl());
 
   // get date and features block from history_data
 
