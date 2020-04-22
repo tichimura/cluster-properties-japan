@@ -115,11 +115,46 @@
       cursor: pointer;
     }
 
-</style>
+    .legend {
+    background-color: #fff;
+    border-radius: 3px;
+    /* bottom: 30px; */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 10px;
+    position: absolute;
+    left: 10px;
+    z-index: 1;
+    }
+
+    .legend h4 {
+    margin: 0 0 10px;
+    }
+
+    .legend div span {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin-right: 5px;
+    width: 10px;
+    }
+
+
+  </style>
 </head>
 
 <body>
   <div id="map"></div>
+
+  <div id="count-colors" class="legend">
+  <h4>感染者数</h4>
+  <div><span style="background-color: #770087"></span>2,000</div>
+  <div><span style="background-color: #BD00BD"></span>1,000</div>
+  <div><span style="background-color: #E413CD"></span>500</div>
+  <div><span style="background-color: #F76DE1"></span>100</div>
+  <div><span style="background-color: #FBAEEE"></span>50</div>
+  <div><span style="background-color: #FFF2FD"></span>10</div>
+  </div>
 
   <div id='console'>
     <h1>COVID-19 latest information</h1>
@@ -132,7 +167,7 @@
       <input id='slider' class='slider' type='range' min='28' max='90' step='1' value='90' />
     </div>
     <script src="japan_covid19_data.js"></script>
-    <script src="main-jp.js"></script>
+    <script src="boundaries-jp.js"></script>
     <script src="history_data.js"></script>
   </div>
 </body>
