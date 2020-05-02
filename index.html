@@ -164,8 +164,20 @@
     <div class='session' id='sliderbar'>
 
       <h1 style="color: blue; font-size:16px">Date: <label id='active-date'>最新情報</label></h1>
-      <input id='slider' class='slider' type='range' min='28' max='90' step='1' value='90' />
+      <input id='slider' class='slider' type='range' min='0' max='90' step='1' value='10' />
     </div>
+    <script>
+    maxFunction();
+    function maxFunction(){
+       var currentDate = new Date();
+       var startDate = new Date(2020, 0, 16);
+       var pastTime = currentDate.getTime() - startDate.getTime();
+       var pastDate = Math.ceil(pastTime/ (1000*60*60*24)) - 26; // no data for jan/17-28, feb/7,8,10,11
+       console.log("this is tesst")
+       document.getElementById("slider").max = pastDate;
+       document.getElementById("slider").value = pastDate;
+    }
+    </script>
     <script src="japan_covid19_data.js"></script>
     <script src="boundaries-jp.js"></script>
     <script src="history_data.js"></script>

@@ -171,9 +171,14 @@ map.on('load', () => {
 
   document.getElementById('slider').addEventListener('input', function(e) {
 
-    var date_value = parseInt(e.target.value);
+    var currentDate = new Date();
+    var startDate = new Date(2020, 0, 16);
+    var pastTime = currentDate.getTime() - startDate.getTime();
+    var pastDate = Math.ceil(pastTime/(1000*60*60*24)) - 26; // no data for jan/17-28, feb/7,8,10,11
+    console.log(pastDate)
 
-    var anumber = 90 - date_value;
+    var date_value = parseInt(e.target.value);
+    var anumber = pastDate - date_value;
     var date_number = String(count_date[anumber]);
     var date_title = date_number.slice(0,4).concat("/", date_number.slice(4,6).concat("/",date_number.slice(6,8)));
 
