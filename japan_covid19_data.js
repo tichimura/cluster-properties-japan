@@ -1,5 +1,5 @@
 const japandata = {
-  "update": 2020/05/03 06:50, 
+  "update": 2020/05/04 06:50, 
   "type": "FeatureCollection",
   "features": [
     {
@@ -13,7 +13,7 @@ const japandata = {
         "capital_name": "Sapporo",
         "iso_3166-2": "JP-01",
         "feature_id": 70258,
-        "count": 790
+        "count": 823
       },
       "geometry": {
         "type": "Point",
@@ -139,7 +139,7 @@ const japandata = {
         "capital_name": "Fukushima",
         "iso_3166-2": "JP-07",
         "feature_id": 463474,
-        "count": 74
+        "count": 75
       },
       "geometry": {
         "type": "Point",
@@ -223,7 +223,7 @@ const japandata = {
         "capital_name": "Saitama",
         "iso_3166-2": "JP-11",
         "feature_id": 725618,
-        "count": 857
+        "count": 878
       },
       "geometry": {
         "type": "Point",
@@ -244,7 +244,7 @@ const japandata = {
         "capital_name": "Chiba",
         "iso_3166-2": "JP-12",
         "feature_id": 791154,
-        "count": 816
+        "count": 823
       },
       "geometry": {
         "type": "Point",
@@ -265,7 +265,7 @@ const japandata = {
         "capital_name": "Tokyo",
         "iso_3166-2": "JP-13",
         "feature_id": 856690,
-        "count": 4331
+        "count": 4491
       },
       "geometry": {
         "type": "Point",
@@ -286,7 +286,7 @@ const japandata = {
         "capital_name": "Yokohama",
         "iso_3166-2": "JP-14",
         "feature_id": 922226,
-        "count": 1042
+        "count": 1060
       },
       "geometry": {
         "type": "Point",
@@ -328,7 +328,7 @@ const japandata = {
         "capital_name": "Toyama",
         "iso_3166-2": "JP-16",
         "feature_id": 1053298,
-        "count": 201
+        "count": 209
       },
       "geometry": {
         "type": "Point",
@@ -349,7 +349,7 @@ const japandata = {
         "capital_name": "Kanazawa",
         "iso_3166-2": "JP-17",
         "feature_id": 1118834,
-        "count": 254
+        "count": 260
       },
       "geometry": {
         "type": "Point",
@@ -391,7 +391,7 @@ const japandata = {
         "capital_name": "Kofu",
         "iso_3166-2": "JP-19",
         "feature_id": 1249906,
-        "count": 54
+        "count": 55
       },
       "geometry": {
         "type": "Point",
@@ -412,7 +412,7 @@ const japandata = {
         "capital_name": "Nagano",
         "iso_3166-2": "JP-20",
         "feature_id": 1315442,
-        "count": 66
+        "count": 69
       },
       "geometry": {
         "type": "Point",
@@ -433,7 +433,7 @@ const japandata = {
         "capital_name": "Gifu",
         "iso_3166-2": "JP-21",
         "feature_id": 1380978,
-        "count": 149
+        "count": 150
       },
       "geometry": {
         "type": "Point",
@@ -538,7 +538,7 @@ const japandata = {
         "capital_name": "Kyoto",
         "iso_3166-2": "JP-26",
          "feature_id": 1708658,
-        "count": 323
+        "count": 328
       },
       "geometry": {
         "type": "Point",
@@ -559,7 +559,7 @@ const japandata = {
         "capital_name": "Osaka",
         "iso_3166-2": "JP-27",
         "feature_id": 1774194,
-        "count": 1641
+        "count": 1658
       },
       "geometry": {
         "type": "Point",
@@ -580,7 +580,7 @@ const japandata = {
         "capital_name": "Kobge",
         "iso_3166-2": "JP-28",
         "feature_id": 1839730,
-        "count": 650
+        "count": 654
       },
       "geometry": {
         "type": "Point",
@@ -601,7 +601,7 @@ const japandata = {
         "capital_name": "Nara",
         "iso_3166-2": "JP-29",
         "feature_id": 1905266,
-        "count": 85
+        "count": 86
       },
       "geometry": {
         "type": "Point",
@@ -706,7 +706,7 @@ const japandata = {
         "capital_name": "Hiroshima",
         "iso_3166-2": "JP-34",
         "feature_id": 2232946,
-        "count": 156
+        "count": 161
       },
       "geometry": {
         "type": "Point",
@@ -832,7 +832,7 @@ const japandata = {
         "capital_name": "Fukuoka",
         "iso_3166-2": "JP-40",
         "feature_id": 2626162,
-        "count": 645
+        "count": 648
       },
       "geometry": {
         "type": "Point",
