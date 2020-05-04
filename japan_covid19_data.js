@@ -1,5 +1,5 @@
 const japandata = {
-  "update": 2020/05/04 06:50, 
+  "update": 2020/05/05 06:50, 
   "type": "FeatureCollection",
   "features": [
     {
@@ -13,7 +13,7 @@ const japandata = {
         "capital_name": "Sapporo",
         "iso_3166-2": "JP-01",
         "feature_id": 70258,
-        "count": 823
+        "count": 847
       },
       "geometry": {
         "type": "Point",
@@ -139,7 +139,7 @@ const japandata = {
         "capital_name": "Fukushima",
         "iso_3166-2": "JP-07",
         "feature_id": 463474,
-        "count": 75
+        "count": 78
       },
       "geometry": {
         "type": "Point",
@@ -223,7 +223,7 @@ const japandata = {
         "capital_name": "Saitama",
         "iso_3166-2": "JP-11",
         "feature_id": 725618,
-        "count": 878
+        "count": 888
       },
       "geometry": {
         "type": "Point",
@@ -244,7 +244,7 @@ const japandata = {
         "capital_name": "Chiba",
         "iso_3166-2": "JP-12",
         "feature_id": 791154,
-        "count": 823
+        "count": 828
       },
       "geometry": {
         "type": "Point",
@@ -265,7 +265,7 @@ const japandata = {
         "capital_name": "Tokyo",
         "iso_3166-2": "JP-13",
         "feature_id": 856690,
-        "count": 4491
+        "count": 4582
       },
       "geometry": {
         "type": "Point",
@@ -286,7 +286,7 @@ const japandata = {
         "capital_name": "Yokohama",
         "iso_3166-2": "JP-14",
         "feature_id": 922226,
-        "count": 1060
+        "count": 1101
       },
       "geometry": {
         "type": "Point",
@@ -328,7 +328,7 @@ const japandata = {
         "capital_name": "Toyama",
         "iso_3166-2": "JP-16",
         "feature_id": 1053298,
-        "count": 209
+        "count": 212
       },
       "geometry": {
         "type": "Point",
@@ -349,7 +349,7 @@ const japandata = {
         "capital_name": "Kanazawa",
         "iso_3166-2": "JP-17",
         "feature_id": 1118834,
-        "count": 260
+        "count": 264
       },
       "geometry": {
         "type": "Point",
@@ -391,7 +391,7 @@ const japandata = {
         "capital_name": "Kofu",
         "iso_3166-2": "JP-19",
         "feature_id": 1249906,
-        "count": 55
+        "count": 56
       },
       "geometry": {
         "type": "Point",
@@ -412,7 +412,7 @@ const japandata = {
         "capital_name": "Nagano",
         "iso_3166-2": "JP-20",
         "feature_id": 1315442,
-        "count": 69
+        "count": 70
       },
       "geometry": {
         "type": "Point",
@@ -475,7 +475,7 @@ const japandata = {
         "capital_name": "Nagoya",
         "iso_3166-2": "JP-23",
         "feature_id": 1512050,
-        "count": 491
+        "count": 492
       },
       "geometry": {
         "type": "Point",
@@ -538,7 +538,7 @@ const japandata = {
         "capital_name": "Kyoto",
         "iso_3166-2": "JP-26",
          "feature_id": 1708658,
-        "count": 328
+        "count": 331
       },
       "geometry": {
         "type": "Point",
@@ -559,7 +559,7 @@ const japandata = {
         "capital_name": "Osaka",
         "iso_3166-2": "JP-27",
         "feature_id": 1774194,
-        "count": 1658
+        "count": 1669
       },
       "geometry": {
         "type": "Point",
@@ -580,7 +580,7 @@ const japandata = {
         "capital_name": "Kobge",
         "iso_3166-2": "JP-28",
         "feature_id": 1839730,
-        "count": 654
+        "count": 667
       },
       "geometry": {
         "type": "Point",
@@ -601,7 +601,7 @@ const japandata = {
         "capital_name": "Nara",
         "iso_3166-2": "JP-29",
         "feature_id": 1905266,
-        "count": 86
+        "count": 87
       },
       "geometry": {
         "type": "Point",
@@ -664,7 +664,7 @@ const japandata = {
         "capital_name": "Matsue",
         "iso_3166-2": "JP-32",
         "feature_id": 2101874,
-        "count": 23
+        "count": 24
       },
       "geometry": {
         "type": "Point",
@@ -706,7 +706,7 @@ const japandata = {
         "capital_name": "Hiroshima",
         "iso_3166-2": "JP-34",
         "feature_id": 2232946,
-        "count": 161
+        "count": 162
       },
       "geometry": {
         "type": "Point",
@@ -727,7 +727,7 @@ const japandata = {
         "capital_name": "Yamaguchi",
         "iso_3166-2": "JP-35",
         "feature_id": 2298482,
-        "count": 34
+        "count": 35
       },
       "geometry": {
         "type": "Point",
@@ -790,7 +790,7 @@ const japandata = {
         "capital_name": "Matsuyama",
         "iso_3166-2": "JP-38",
         "feature_id": 2495090,
-        "count": 47
+        "count": 48
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +853,7 @@ const japandata = {
         "capital_name": "Saga",
         "iso_3166-2": "JP-41",
         "feature_id": 2691698,
-        "count": 42
+        "count": 44
       },
       "geometry": {
         "type": "Point",
