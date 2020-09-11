@@ -1,5 +1,5 @@
 const japandata = {
-  "update": 2020/09/10 19:51, 
+  "update": 2020/09/11 23:50, 
   "type": "FeatureCollection",
   "features": [
     {
@@ -13,7 +13,7 @@ const japandata = {
         "capital_name": "Sapporo",
         "iso_3166-2": "JP-01",
         "feature_id": 70258,
-        "count": 1845
+        "count": 1849
       },
       "geometry": {
         "type": "Point",
